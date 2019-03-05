@@ -1,5 +1,5 @@
 {
-  "name": "vue-j-senver",
+  "name": "to-do",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -16,7 +16,10 @@
     "@microsoft/sp-office-ui-fabric-core": "~1.4.1",
     "@microsoft/sp-webpart-base": "~1.4.1",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
-    "vue": "^2.6.8"
+    "vue": "^2.6.8",
+    "vue-class-component": "^6.1.2",
+    "vue-property-decorator": "^6.0.0",
+    "vue-template-compiler": "^2.5.13"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.4.1",
@@ -26,6 +29,9 @@
     "@types/mocha": ">=2.2.33 <2.6.0",
     "ajv": "~5.2.2",
     "gulp": "~3.9.1",
+    "node-sass": "~4.5.3",
+    "sass-loader": "~6.0.6",
+    "vue-loader": "^13.7.0",
     "webpack-merge": "^4.2.1"
   }
 }

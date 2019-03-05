@@ -2,17 +2,17 @@
   "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "vue-j-senver-web-part": {
+    "to-do-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/vueJSenver/VueJSenverWebPart.js",
-          "manifest": "./src/webparts/vueJSenver/VueJSenverWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/toDo/ToDoWebPart.js",
+          "manifest": "./src/webparts/toDo/ToDoWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "VueJSenverWebPartStrings": "lib/webparts/vueJSenver/loc/{locale}.js"
+    "toDoStrings": "lib/webparts/toDo/loc/{locale}.js"
   }
 }

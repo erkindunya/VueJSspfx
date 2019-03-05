@@ -1,7 +1,7 @@
 {
   "@microsoft/generator-sharepoint": {
     "version": "1.4.1",
-    "libraryName": "vue-j-senver",
+    "libraryName": "to-do",
     "libraryId": "3e2bccea-61da-4868-9eff-143063433fb8",
     "environment": "spo"
   }
